@@ -1,0 +1,77 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:border, *:after {
+	box-sizing: inherit;
+
+}
+
+.red {
+	background-color: #D0021B;
+}
+
+.blue {
+	background-color: #4A90E2;
+}
+
+.gray {
+	background-color: #4A4A4A;
+}
+
+.head {
+	display: inline-block;
+	width: 31.5%;
+	height: 200px;
+	margin: 10px;
+}
+
+.content p {
+	font-family: Arial;
+	margin: 20px 15px 20px 15px;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	height: 250px;
+}
+
+.left {
+	width: 35%;
+	height: 300px;
+	display: inline-block;
+	float: left;
+	clear: none;
+	margin-bottom: 20px;
+}
+
+.right {
+	width: 65%;
+	height: 300px;
+	display: inline-block;
+	float: left;
+	clear: none;
+	margin-bottom: 20px;
+}
+
+.left-foot {
+	display: inline-block;
+	float: left;
+	clear: none;
+	width: 65%;
+	height: 170px;
+}
+
+.right-foot {
+	display: inline-block;
+	float: right;
+	clear: none;
+	width: 35%;
+	height: 170px;
+	position: relative;
+}
+
+.inside {
+	width: 60%;
+	margin: auto;
+	
+	height: 170px;
+}
